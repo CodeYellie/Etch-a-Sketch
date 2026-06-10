@@ -1,0 +1,19 @@
+#container > div {
+    border-color: black;
+    width: 85px;
+    height: 85px;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.active-hover{
+    background-color: blueviolet;
+}
